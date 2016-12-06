@@ -67,7 +67,7 @@ def realtime():
             #auth = HTTPBasicAuth('user','pass')).text
             urlrequest = "https://download.finance.yahoo.com/d/quotes.csv?s="+symbol+"&e=.csv&f=l1opv"
             symbolname = requests.get(urlrequest,verify=True, \
-            auth = HTTPBasicAuth('seanharris1120','astro33029')).text 
+            auth = HTTPBasicAuth('**********','*********')).text 
             #code for pulling the stock information from yahoo
             list1 = symbolname.split(",") 
             #splitting the string into a list, making a new element after every comment 
